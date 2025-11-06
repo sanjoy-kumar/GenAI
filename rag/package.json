@@ -1,0 +1,25 @@
+{
+  "name": "rag-app",
+  "version": "1.0.0",
+  "description": "A simple RAG (Retrieval-Augmented Generation) app using Node.js + TypeScript + LangChain + OpenAI",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/index.ts",
+    "dev": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.7",
+    "@langchain/core": "^0.3.14",
+    "@langchain/openai": "^0.3.10",
+    "langchain": "^0.3.7",
+    "dotenv": "^16.4.5",
+    "openai": "^4.68.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

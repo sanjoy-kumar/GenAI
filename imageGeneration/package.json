@@ -1,0 +1,29 @@
+{
+  "name": "imagegeneration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node dist/index.js",
+    "build": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^6.4.0",
+    "dotenv": "^17.2.3",
+    "mic": "^2.1.2",
+    "mic-recorder-to-mp3": "^2.2.2",
+    "node-fetch": "^3.3.2",
+    "node-microphone": "^0.1.6",
+    "node-record-lpcm16": "^1.0.1",
+    "openai": "^6.7.0"
+  }
+}
