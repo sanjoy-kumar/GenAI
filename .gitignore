@@ -1,5 +1,9 @@
-__pycache__/
-*.env
-*.log
-*.venv
-node_modules
+# Python
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/*.env
+**/*.log
+
+# Node.js
+**/node_modules/
