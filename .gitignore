@@ -4,6 +4,12 @@
 **/.venv/
 **/*.env
 **/*.log
+**/*.py[oc]
+**/*.egg-info
 
 # Node.js
 **/node_modules/
+**/*package-lock.json
+**/dist/
+**/build/
+**/wheels/
